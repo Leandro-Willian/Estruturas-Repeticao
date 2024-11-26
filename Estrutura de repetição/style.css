@@ -1,0 +1,87 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+    line-height: 1.6;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+/* Área principal */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #007bff;
+}
+h2 {
+    margin-top: 30px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+/* Parágrafos e texto */
+p {
+    margin: 15px 0;
+}
+
+/* Blocos de código */
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    border-left: 5px solid #007bff;
+    font-family: Consolas, monospace;
+    font-size: 0.9rem;
+}
+code {
+    background: #eaf8fc;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: Consolas, monospace;
+}
+
+/* Exemplos */
+.example {
+    margin: 20px 0;
+    padding: 10px;
+    background: #e9ecef;
+    border-left: 5px solid #6c757d;
+    border-radius: 5px;
+}
+
+/* Exercícios */
+.exercise {
+    background: #fff3cd;
+    padding: 10px;
+    border-left: 5px solid #ffc107;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
